@@ -1,0 +1,349 @@
+body { 
+  width: 100%; 
+}
+
+header{ 
+  width: 100%;  
+  background: #c4c4c4;
+  padding: 5px 5px; /* Atstarpe elementa iekšpusē */
+  /* Padding darbojas tāpat kā margin */
+  text-align: right; /* Teksta izlīdzinājums.*/
+}
+
+/* Navigation */
+/* Sekcijas nav-bar iestatījumi */
+
+#nav_bar{ 
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+/* Logo apstrāde */
+.navbar-brand img {
+  height: 40px;
+  padding-left: 30px;
+}
+/* Teksta izretināšana */
+.navbar-nav li{
+  padding: 0 10px;
+}
+.navbar-nav li a{
+  font-weight: bold;
+}
+.navbar{
+  background: #c4c4c4;
+}
+.navbar-toggler{
+  border: none!important:;
+}
+button {
+  background-color: rgb(77, 92, 231);
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+}
+/* Sākumlapa */
+#home{
+  background: url(https://images.unsplash.com/photo-1595359435659-c6c1813964ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80)no-repeat;
+  backgroud-size:cover;
+  background-position: center;
+  height: 120vh;
+}
+banner{
+  padding: 70px 0;
+}
+.banner-text{
+  text-align: center;
+  color: rgb(107, 19, 19);
+  padding-top: 70px;
+}
+.banner-text h1{
+  font-size: 130 px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.banner-text p{
+  font-size: 20 px;
+  font-style: italic;
+}
+.banner-btn{
+  margin: 10px auto 0;
+}
+.banner-btn a{
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12 px 0;
+  color: rgb(107, 19, 19);
+  border: .5px solid rgb(107, 19, 19);
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+}
+.banner-btn a span{
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:  rgb(107, 19, 19);
+  z-index: -1;
+  transition: 0.5s;
+}
+.banner-btn a:hover span{
+  width: 100%;
+}
+.banner-btn a:hover {
+  color: #000;
+}
+.title-text{
+  text-align: center;
+  padding-bottom:70px;
+}
+.title-text h1{
+  margin: auto;
+  font-size:20 px;
+  color: #690d1c;
+  font-weight: bold;
+}
+
+/*Par mums*/
+#about{
+ background-color:rgb(212, 212, 212);
+ padding-top: 70px;
+ padding-bottom: 170px;
+}
+.about p{
+  font-size: 25px;
+  text-align: center;
+  padding-left: 3%;
+  padding-bottom: 1px;
+}
+.about-btn{
+  padding-left: 3%;
+  padding-bottom: 3px;
+}
+
+/*Mūsu komanda*/
+#team{
+  pading-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+h1{
+  text-align: center;
+  color: #555!important:;
+  padding-bottom: 10px;
+}
+.profile-pic{
+  margin-top:25px;
+}
+.profile-pic .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box img{
+ filter: grayscale(1);
+}
+.profile-pic .img-box img:hover{
+ filter: grayscale(0);
+ cursor: pointer;
+}
+.img-box ul{
+  padding: 15px 0;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity:0;
+}
+.img-box ul li{
+  padding: 5px;
+  display: inline-block;
+}
+.img-box:hover ul{
+  opacity:1;
+}
+.img-box ul, .img-box ul li{
+  transition:0.5s;
+}
+
+/*Pakalpojumi*/
+#services{
+  background-image: linear-gradient(rgba(241, 221, 221, 0.8), rgb(0,0,0,0.8)), url(Bilde4.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #850b0b!important:;
+  background-attachment: fixed;
+  padding-top: 70px;
+  padding-bottom: 170px;
+}
+#services h3{
+  text-align: center;
+  color:#7c0f0f!important:;
+  padding-bottom: 10px;
+}
+#services h3::after{
+  content: '';
+  background: #a10707;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+  }
+
+.icon{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 50%;
+}
+#services p{
+  font-size: 10px;
+  margin-top: 20px;
+  color: rgb(151, 3, 3));
+}
+.services .col-md-3:hover{
+  background: #cacaca;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+/* Galerija */
+#gallery{
+  width: 100%;
+  padding: 70px 0;
+  background: #efefef;
+}
+.gallery-box{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.single-gallery{
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: #000;
+  position: relative;
+}
+.single-gallery img{
+  width: 100%;
+  border-radius: 7px;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(rgba(0,0,0,0.5),#fffcfd);
+  opacity: 0;
+  transition: 1s;
+}
+.single-gallery:hover .overlay{
+  opacity: 1;
+}
+.gallery-desc{
+  width: 80;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+hr{
+  background: #fff;
+  height: 2px;
+  border: 0;
+  margin: 15px auto;
+  width: 60%;
+}
+.gallery-desc p {
+  font-size: 14px;
+}
+.single-gallery:hover .gallery-desc{
+  bottom: 40%;
+  opacity: 1;
+}
+
+/*Cena*/
+#price{
+  background-image: linear-gradient(rgba(241, 221, 221, 0.8), rgb(0,0,0,0.8));
+  background-size: cover;
+  background-position: center;
+  color: #efefef!important:;
+  background-attachment: fixed;
+  padding-top: 70px;
+  padding-bottom: 170px;
+}
+
+table {
+  width: 100%;
+}
+
+#price td, #price th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#price tr:nth-child(even){background-color: #f2f2f2;}
+
+#price tr:hover {background-color: #ddd;}
+
+#price th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(104, 104, 104);
+  color: #000;
+}
+
+/*klientiem*/
+#client{
+  background-color: #c4c4c4;
+  padding-top: 70px;
+  padding-bottom: 170px;
+  color:#777;
+  text-align: left;
+}
+
+.client input {
+  width : 200px;
+  padding: 5px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/*Kontakti*/
+#contact{
+  background: #efefef;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  color:#777;
+}
+
+/* Kartes izmēri */
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+/* footer */
+footer{ 
+  background-color: rgb(212, 212, 212);
+  text-align: center; 
+}

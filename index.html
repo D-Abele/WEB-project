@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<meta name="keywords" content=" Picture, Photos, Bildes, Blog, Example of programming, programmēšanas piemērs">
+	<!-- Lapas atslēgvārdi -->
+	<meta name="description" content="Stāsti, paziņojumi, jaunumi par un ap foto.">
+	<!-- Lapas apraksts -->
+	<meta name="author" content="Diana Abele">
+	<title>HazyPic</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+	 crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+<!-- lapas navigācija -->
+  <section id="nav_bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src= "logo1.jpg"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class= "nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PRICE</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">CLIENTS</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+    </div> 
+    </nav>
+  </section>
+
+  <!-- Sākumlapa-->
+  <section id = "home">
+      <div class= "banner-text">
+       <h1> WE ALL HAVE STORY TO TELL</h1>
+       <div class="banner-btn">
+         <a href="#gallery"><span></span>OUR WORK</a>
+         <a href="#contact"><span></span>CONTACT US</a>
+       </div>
+  </section>
+
+<!-- Par mums -->
+  <section id="about">
+    <div class = "title-text">
+    <h1>ABOUT</h1>
+    </div>
+    <div class="about-content">
+      <p><b>Sveiki! Šis ir stāsts par mums. Četriem dedzīgiem fotogrāfiem, kuru stāsts sākās ar mīlestību pret fotogrāfiju. Vienkāršāk sakot - fotogrāfēšana ir mūsu lielākā aizraušanās jau vairāk kā 5 gadus..</b></p>
+    </div>
+    <div class="about-btn">
+    <button type="button" class = "btn btn-primary"</i>>Read More>></button>
+    </div>
+    <div id = "team">
+      <div class= "container">
+      <h1>OUR TEAM</h1>
+    <div class = "row">
+    <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="profila1.jpg" class="img-responsive">
+    </div>
+      <h2> Anna Liepina</h2>
+      <h3>Photographer</h3>
+      <p> Kā fotogrāfs dalos ar padomiem un ieteikumiem kā vislabāk sasniegt kvalitatīvu un skaistu gala rezultātu</p>
+     </div>
+    <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="profila2.jpg" class="img-responsive">
+    </div>
+      <h2> Eliza Kalnina</h2>
+      <h3> Photographer</h3>
+      <p> Kā fotogrāfs izceļu detaļas, emocijas un piešķirs fotogrāfijai neaizmirstamu noskaņu</p>
+    </div>
+    <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="profila3.jpg" class="img-responsive">
+    </div>
+      <h2> Arturs Bērzins</h2>
+      <h3> Photographer</h3>
+      <p> Kā fotogrāfs ar prieku cenšos ķert aizraujošus momentus, ko iemūžināt</p>
+    </div>
+    <div class="col-md-3 profile-pic text-center">
+    <div class="img-box">
+    <img src="profila4.jpg" class="img-responsive">
+    </div>
+      <h2> Agnis Nelsons</h2>
+      <h3> Photographer</h3>
+      <p> Kā fotogrāfs cenšos radīt neaizmirstamus un īpašus momentus</p>
+    </div>
+  </div>
+  </section>
+
+<!-- Pakalpojumi -->
+<section id= "services">
+  <div class = "title-text">
+    <h1>SERVICES</h1>
+  </div>
+     <div class= "container">
+     <div class="row services">
+        <div class= "col-md-3 text-center">
+           <div class="icon">
+           <i class="bi bi-heart"></i>
+           </div>
+           <h3>Wedding photo</h3>
+         </div>
+         <div class= "col-md-3 text-center">
+           <div class="icon">
+           <i class="bi bi-camera"></i>
+           </div>
+           <h3>Photo shoots</h3>
+           </div>
+         <div class= "col-md-3 text-center">
+            <div class="icon">
+            <i class="bi bi-calendar-check"></i>
+            </div>
+            <h3>Events</h3>
+            </div>
+        <div class= "col-md-3 text-center">
+             <div class="icon">
+             <i class="bi bi-cart3"></i>
+             </div>
+             <h3>Products</h3>
+        </div>
+    </div>
+  </div>
+  </div>
+  </section>
+    
+<!-- Galerija -->
+  <section id = "gallery">
+  <div class = "title-text">
+    <h1>GALERRY</h1>
+    </div>
+    <div class = "gallery-box">
+      <div class= "single-gallery">
+        <img src = "Bilde1.jpeg">
+        <div class= "overlay"></div>
+        <div class= "gallery-desc">
+          <h3> RUDENS</h3>
+          <hr>
+          <p>Fotosesijas no septembra - novembrim</p>
+        </div>
+      </div>
+      <div class= "single-gallery">
+        <img src = "Bilde2.jpg">
+        <div class= "overlay"></div>
+        <div class= "gallery-desc">
+          <h3> ZIEMA</h3>
+          <hr>
+          <p> Fotosesijas no decembra - februārim</p>
+        </div>
+      </div>
+      <div class= "single-gallery">
+        <img src = "Bilde3.jpg">
+        <div class= "overlay"></div>
+        <div class= "gallery-desc">
+          <h3> PAVASARIS</h3>
+          <hr>
+          <p> Fotosesijas no marta - maijam</p>
+        </div>
+      </div>
+      <div class= "single-gallery">
+        <img src = "Bilde4.jpg">
+        <div class= "overlay"></div>
+        <div class= "gallery-desc">
+          <h3> VASARA</h3>
+          <hr>
+          <p> Fotosesijas no maija - augustam</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+<!---Cenas--->
+  <section id="price">
+     <div class = "title-text">
+      <h1>PRICE</h1>
+     </div>
+       <div>
+        <!-- Tabulas izveide -->
+        <table class ="styled-table">
+          <thead>
+              <th style="border: 1px solid black;">Service</th>
+              <th style="border: 1px solid black;">Time</th>
+              <th style="border: 1px solid black;">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr> 
+              <td>Kāzu fotogrāfēšana</td>
+              <td>līdz 14 stundām</td>
+              <td>No 600 EUR nākošās stundas maksa 60 EUR</td>
+            </tr>
+            <tr> 
+              <td>Privāta fotosesija</td> 
+              <td>līdz 60 minūtēm</td>
+              <td>No 55 EUR nākošās stundas maksa 40 EUR</td>
+            </tr>
+             <tr>
+              <td>Lielas ģimenes / Grupu, kristību, vecmeitu ballītes fotosesija (5+personas)</td>
+              <td>līdz 60 minūtēm</td>
+              <td>No 55 EUR nākošās stundas maksa 40 EUR</td>
+            </tr>
+             <tr>
+              <td>Mini fotosesija</td>
+              <td>līdz 20 minūtēm</td>
+              <td>No 30 EUR</td>
+            </tr>
+             <tr>
+              <td>Korporatīvais foto</td>
+              <td>no 30 minūtēm</td>
+              <td>No 55 EUR nākošās stundas maksa 40 EUR</td>
+            </tr>
+             <tr> 
+              <td>Produktu / priekšmetu fotografēšana</td>
+              <td>līdz 60 minūtēm</td>
+              <td>>No 30 EUR stundas maksa 45 EUR</td>
+            </tr>
+          </tbody>
+          </table>
+       </div>
+  </section>
+  
+<!---Klientiem--->
+  <section id="client">
+    <div class = "title-text">
+      <h1>CLIENTS</h1>
+    </div>
+    <form id="form" action="#"style="border:1px solid #ccc">
+    <div class="container">
+    <div class="email_form">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="Type your email address" oninput="validationemail()">
+        <span id="email_error" style="color: red; display: unset"> Email address is required </span>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Type your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+      <br>
+      <label for="show">Show password</label>
+      <input type="checkbox" id="show" value="Rādīt paroli" onclick="raditParoli()">
+      <br>
+      <p class="terms-text"> <input onchange="validationemail()" type="checkbox" id="myCheck" name="myCheck"> I agree to <a href="#" class="terms-text-button">terms of service</a> </p>
+    <span id="text" style="color: red; display: unset" > You must accept the terms and conditions </span>
+     <button type="submit" class="signupbtn">Login</button>
+    </div>
+    </form>
+  </section>
+
+  <!---Kontakti--->
+  <section id="contact">
+   <div class="container">
+   <div class = "title-text">
+    <h1>CONTACT US</h1>
+   </div>
+   <p>Send us a message!</p>
+    <div class="row">
+      <form class="contact-form">
+      <div class="col-md-6">
+      <div class="form-group">
+       <input type="text" class="form-control" placeholder="Vārds Uzvārds">
+      </div>
+      <div class="form-group">
+       <input type="number" class="form-control" placeholder="Telefona nr.">
+      </div>
+      <div class="form-group">
+       <input type="text" class="form-control" placeholder="E-pasts">
+      </div>
+      <div class="form-group">
+      <textarea class = "form-control" rows= "4"placeholder="Komentārs"></textarea>
+      </div>
+    </div>
+    <div class="about-btn">
+    <button type="button" class = "btn btn-primary">Send>></button>
+    </div>
+    <div=class="contact-info">
+      <p><i class="bi bi-geo-alt"></i>Address: Lielā iela, Rīga </p>
+      <p><i class="bi bi-phone"></i>Phone: +371 5555855 </p>
+      <p><i class="bi bi-envelope"></i>E-mail: hp@gmail.com </p>
+    </div>
+  </div>
+  </section>
+
+<!--Google Maps Api -->
+  <section>
+    <div id="map"></div>
+   <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT97AYo5uKDsB_i_H2DrGeCsRaB6bDh0o&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </section>
+
+  <footer>
+    <p>&copy; Copyright 2022 | All Rights Reserved by DianaAbele</p>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
