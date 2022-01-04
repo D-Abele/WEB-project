@@ -16,4 +16,4 @@ Icons	     https://icons.getbootstrap.com/
 APi        https://maps.googleapis.com/maps/api/js?key=AIzaSyDT97AYo5uKDsB_i_H2DrGeCsRaB6bDh0o&callback=initMap&libraries=&v=weekly
 Program    Replit.com
 
-Design     Home page made in Figma
+Design     Home page designed in Figma
